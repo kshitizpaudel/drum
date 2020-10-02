@@ -1,0 +1,78 @@
+*{
+  box-sizing: 0 ; padding: 0; margin: 0;
+}
+body{
+  background: pink;
+  font-family: 'Long Cang', cursive;
+}
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px skyblue;
+}
+.drumSet {
+
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+.drum{
+  height: 150px;
+  width: 200px;
+  border: solid white 10px;
+    margin:  5px 5px;
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  overflow: hidden;
+  font-weight: bolder;
+  text-shadow: 5px 5px skyblue;
+  background:linear-gradient(to right,aqua,skyblue,white);
+}
+.w{
+  background-image: url('images/tom1.png');
+
+}
+.a{
+  background-image: url('images/tom2.png');
+
+}
+.s{
+  background-image: url('images/tom3.png');
+
+}
+.d{
+  background-image: url('images/tom4.png');
+
+}
+.j{
+  background-image: url('images/snare.png');
+
+}
+.k{
+  background-image: url('images/kick.png');
+
+}
+.l{
+  background-image: url('images/crash.png');
+
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.pressed{
+  box-shadow: 7px 8px 10px red;
+}
+
+.testClass {
+  font-size:50px;
+  color:yellow;
+}
+.testClass1{
+  text-transform: uppercase;
+}
